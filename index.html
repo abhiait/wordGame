@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Game</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+</head>
+
+<body>
+
+    <header>
+        <h1>Word Game</h1>
+    </header>
+    <div class="start" id="strt">
+        <button onclick="playTheGame()">
+            Click here to Start
+        </button>
+    </div>
+    <!-- <div id="hideDiv">
+
+
+    </div> -->
+    <div id="main">
+        <div class="container">
+            <div class="correctWord" id="correctDiv">
+                <h2>Correct Words</h2>
+            </div>
+            <div class="newWord">
+                <h2>New Words</h2>
+                <div class="catchWord">
+                    <div class="word_list" id="wordDiv">
+
+                    </div>
+                </div>
+                <div class="input">
+                    <input id="input" type="text" placeholder="type word" value="Abhinav">
+                </div>
+            </div>
+            <div class="wrongWord" id="wrongDiv">
+                <h2>Wrong Words</h2>
+            </div>
+        </div>
+    </div>
+    <script src="index.js "></script>
+</body>
+
+</html>
